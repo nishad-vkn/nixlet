@@ -1,0 +1,11 @@
+.envrc*
+.direnv/*
+.terraform/*
+terraform.tfstate
+terraform.tfstate.backup
+terraform.tfvars
+terraform.tfvars.json
+
+# Exceptions
+!.envrc.example
+.terraform*
